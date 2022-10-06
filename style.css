@@ -272,7 +272,7 @@ body{
 
 @media screen and (max-width: 890px){
     .logo a{
-        font-size: 30px;
+        font-size: 25px;
     }
     .nav{
         display: none;
