@@ -277,6 +277,9 @@ body{
     .nav{
         display: none;
     }
+    .buscador-input{
+        font-size: 18px;
+    }
     .btn-des svg{
         display: block;
     }
