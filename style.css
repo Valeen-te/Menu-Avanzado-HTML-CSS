@@ -1,13 +1,14 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    background-color: aliceblue;
 }
 
 /*Header*/
 
 .header-site{
     width: 100%;
-    height: 150px;
+    height: 155px;
     background-color: white;
 }
 .contenedor-header{
@@ -65,7 +66,7 @@ body{
 /*Menu desplegable*/
 .menu-desplegable{
     overflow: hidden;
-    position: fixed;
+    position: absolute;
     background-color: white;
     left: 0px;
     width: 100%;
@@ -283,4 +284,13 @@ body{
     .btn-des svg{
         display: block;
     }
+}
+
+/*Main*/
+
+main{
+    overflow: hidden;
+    width: 500px;
+    height: 100vh;
+    margin: 0 auto;
 }
